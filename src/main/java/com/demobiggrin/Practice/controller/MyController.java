@@ -40,6 +40,7 @@ public class MyController {
 
     @GetMapping("/dispStudent")
     public ArrayList<Student> dispStudent(){
+        System.out.println("Showing all student");
         return list;
     }
 
